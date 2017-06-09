@@ -1,0 +1,36 @@
+{
+  "name": "ngx-autolinked",
+  "version": "0.0.1",
+  "description": "An Angular 4+ Component to parse links (urls ,emails ,phones etc.) in text into clickable links",
+  "homepage": "https://www.techiediaries.com/demos/ngx-autolinked",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techiediaries/ngx-autolinked"
+  },
+  "author": {
+    "name": "Techiediaries",
+    "email": "techiediaries9@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "auto link",
+    "urls",
+    "phones",
+    "emails",
+    "parse"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techiediaries/ngx-autolinked/issues"
+  },
+  "module": "ngx-autolinked.js",
+  "typings": "ngx-autolinked.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  },
+  "dependencies": {
+    "autolinker": "^1.4.3"    
+  }
+}
